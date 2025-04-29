@@ -20,8 +20,9 @@
     </head>
 	<body class="text-center max-w-[1080px] lg:text-left lg:m-auto lg:p-8 text-2xl flex flex-col [&>div]:mb-10 items-center">
 		<div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-4 items-center">
-			<div class="max-h-[250px] mb-4 lg:mb-0 lg:max-h-[425px] lg:rounded-md overflow-hidden flex justify-center items-center">
+			<div class="max-h-[250px] mb-4 lg:mb-0 lg:max-h-[425px] lg:rounded-md overflow-hidden flex justify-center items-center relative">
 				<img src="{{ asset('images/basset-hound.webp') }}" alt="Basset Hound 🐾">
+				{{-- <div class="lg:hidden absolute bottom-0 left-0 w-full h-[5px] bg-green-600"></div> --}}
 			</div>
 
 			<div class="m-2 col-span-2 [&>*]:mb-4">
@@ -29,11 +30,11 @@
 				<p>Rancho Sienna neighbor offering personalized pet care!</p>
 				<p>I bring over 20 years of experience with dogs, including 2 years professional experience as a supervisor at a luxury kennel caring for up to 200 dogs a day; managing feeding, medications, potty breaks, and playtime routines.</p>
 				<p>I am also experienced with equines, small animals, and reptiles.</p>
-				<a href="{{ $mailtoTemplate }}"><button class="ml-auto font-semibold bg-green-600 text-zinc-50 rounded-lg py-2 px-4 hover:scale-[105%] cursor-pointer hover:transition transition">Book your first walk for free!</button></a>
+				<a href="{{ $mailtoTemplate }}"><button class="ml-auto font-semibold bg-green-600 text-zinc-50 rounded-lg py-2 px-4 hover:scale-[103%] hover:-rotate-2 cursor-pointer hover:transition transition">Book your first walk Free!</button></a>
 			</div>
 		</div>
 
-		<div class="mx-2 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-4 [&>div]:text-center [&>div]:border-2 [&>div]:border-green-600 [&>div]:rounded-lg [&>div]:p-4">
+		<div class="mx-2 lg:mx-0 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-4 [&>div]:text-center [&>div]:border-2 [&>div]:border-green-600 [&>div]:rounded-lg [&>div]:p-4">
 			<div>
 				<div class="font-semibold text-3xl">Walks</div>
 				<p>Solo walks ensure your pet’s safety, comfort, and my undivided attention.</p>
