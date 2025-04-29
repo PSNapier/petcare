@@ -26,7 +26,7 @@
 
 			<div class="m-2 col-span-2 [&>*]:mb-4">
 				<div class="font-semibold text-3xl">Dog Walking & Pet Care</div>
-				<p>Rancho Sienna neighbor personalized pet care!</p>
+				<p>Rancho Sienna neighbor offering personalized pet care!</p>
 				<p>I bring over 20 years of experience with dogs, including 2 years professional experience as a supervisor at a luxury kennel caring for up to 200 dogs a day; managing feeding, medications, potty breaks, and playtime routines.</p>
 				<p>I am also experienced with equines, small animals, and reptiles.</p>
 				<a href="{{ $mailtoTemplate }}"><button class="ml-auto font-semibold bg-green-600 text-zinc-50 rounded-lg py-2 px-4 hover:scale-[105%] cursor-pointer hover:transition transition">Book your first walk for free!</button></a>
