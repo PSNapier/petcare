@@ -57,7 +57,7 @@
 		<div class="mx-2 text-center">
 			<p class="font-semibold text-3xl">Contact Me</p>
 			<p><span class="font-semibold">Email:</span> <a class="underline hover:text-green-600 hover:transition transition" href="{{ $mailtoTemplate }}">AbatureStudio@gmail.com</a></p>
-			<p><span class="font-semibold">Text:</span> 512-228-7795</p>
+			<p><span class="font-semibold">Text:</span> (512) 228-7795</p>
 		</div>
 
 		<footer class="mx-2 text-center text-sm">
